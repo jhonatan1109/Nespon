@@ -39,7 +39,7 @@ public class laboratorio1 {
         elementoAdd.click();
         
 		WebElement txtFirstname = driver.findElement(By.name("firstName"));
-		txtFirstname.sendKeys("Test");
+		txtFirstname.sendKeys("Tests");
 		
 		WebElement txtMiddlename = driver.findElement(By.name("middleName"));
 		txtMiddlename.sendKeys("Alexander");
